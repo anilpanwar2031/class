@@ -449,8 +449,8 @@ table.dataTable tr.odd {
 .tab-content .heading-lebel {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 11px;
     line-height: 35px;
     color: #616161;
     text-align: left;
@@ -487,11 +487,28 @@ table.dataTable tr.odd {
     line-height: 20px;
 }
 
+.tab-content .form-control {
+    background-color: #FAFAFA;
+    font-size: 11px;
+}
+
 .total-background {
     background: #005093;
     border-radius: 10px;
 }
 .grand-total {
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+}
+
+.grand-total-text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.grand-total-rupees {
     font-size: 16px;
     padding: 10px;
     color: #fff;
@@ -597,6 +614,8 @@ table.dataTable tr.odd {
 	}
 
 }	
+
+
 /* ============ mobile view .end// ============ */
 
  /* Media Query for Mobile Devices */
@@ -604,6 +623,9 @@ table.dataTable tr.odd {
     
     .login-logo, .img{
         margin-top:-250px;
+    }
+    .form-input{
+        margin-left:0px !important;
     }
 }
   
@@ -735,6 +757,33 @@ table.dataTable tr.odd {
 
     .quantity-box {
         display: inline-grid;
+    }
+
+    .form-input{
+        margin-left:0px;
+    }
+
+    .form-client-details-text-area {
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        background: #FAFAFA !important;
+    }
+
+    .form-client-details-input {
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        background: #FAFAFA !important;
+    }
+
+    .form-client-details-label {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 12px !important;
+        line-height: 35px;
+        color: #616161;
+        text-align: left;
+        margin-left: 10px !important;
     }
 }
 
@@ -951,5 +1000,126 @@ table.dataTable tr.odd {
 
 
 /*****************************************************/
-                /** Quotations-5 END  **/
+             /** Quotations-5 END  **/
 /*****************************************************/
+
+.textbox-style{
+    height: 34px;
+    margin-right: 15px;
+    color: #9E9E9E;
+    background: #ECECEC;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+.heading-value{
+    color: #424242;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    margin: 6px 20px 0px;
+}
+
+
+
+/* Tab 2 */
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+
+.form-input{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background: #FFFFFF !important;
+}
+
+.form .fa-search-second-tab{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    color: #9ca3af
+}
+
+.version-lebel-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #EC934C;
+}
+
+.version-sub-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: left;
+    color: #005093;
+}
+
+.version-sub-heading-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: left;
+    color: #757575;
+}
+
+.version-sub-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #424242;
+}
+
+
+/* Quotations Tab Client Details .*/
+
+.client-details-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #005093;
+}
+
+.form-client-details-input{
+    margin-bottom: 20px;
+    margin-left: 25px;
+    background: #FAFAFA !important;
+}
+
+.form-client-details-text-area{
+    margin-bottom: 20px;
+    margin-left: -14px;
+    background: #FAFAFA !important;
+}
+
+.form-client-details-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 35px;
+    color: #616161 !important;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.form-client-details-placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+    color: #9E9E9E !important;
+}
