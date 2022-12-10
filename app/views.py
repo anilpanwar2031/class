@@ -72,5 +72,5 @@ def psearch(request):
 
         queryset = Product.objects.filter(Q(name__icontains=search) | Q(description__icontains=search)).values()
         data = list(queryset)
-        print("Data = ", data)
+        # print("Data = ", data)
         return JsonResponse(data, safe=False)
